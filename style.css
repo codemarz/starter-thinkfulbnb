@@ -132,7 +132,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 768px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -140,7 +140,7 @@ footer p {
   }
 
   .logo {
-    margin: 14 px 0 14px 20px;
+    margin: 14px 0 14px 20px;
     padding-top: 0;
     font-size: 42px
   }
@@ -161,11 +161,7 @@ footer p {
   }
 
   form div {
-    flex-direction: column;
-  }
-
-  form button {
-    flex: 1;
+    flex-direction: row;
   }
 
   form select,
