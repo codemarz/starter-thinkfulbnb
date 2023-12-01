@@ -132,7 +132,8 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 768px) {
+/* Mobile View Styles */
+@media only screen and (max-width: 768px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -142,7 +143,7 @@ footer p {
   .logo {
     margin: 14px 0 14px 20px;
     padding-top: 0;
-    font-size: 42px
+    font-size: 42px;
   }
 
   header nav ul {
@@ -170,3 +171,14 @@ footer p {
   }
 }
 
+/* Desktop View Styles */
+@media only screen and (min-width: 769px) {
+  .logo {
+    font-size: 42px;
+  }
+
+  form select,
+  form input {
+    width: 60%;
+  }
+}
