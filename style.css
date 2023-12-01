@@ -133,7 +133,7 @@ footer p {
 /* -------  Media Query ------- */
 
 /* Mobile View Styles */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -172,7 +172,7 @@ footer p {
 }
 
 /* Desktop View Styles */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .logo {
     font-size: 42px;
   }
